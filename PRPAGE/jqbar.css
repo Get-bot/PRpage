@@ -1,0 +1,49 @@
+
+.jqbar.vertical
+{
+    text-align: ri;
+    display: inline-block;
+}
+.jqbar.vertical span
+{
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+.jqbar.vertical .bar-percent
+{
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    height: 20px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.jqbar.vertical .bar-level-wrapper
+{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.jqbar.vertical .bar-level
+{
+    position: absolute;
+}
+
+/*horizontal*/
+
+.jqbar.horizontal span
+{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    color: white;
+}
+.jqbar.horizontal .bar-percent
+{
+    color: white;
+    font-size: 15px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+

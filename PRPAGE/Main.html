@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PR Page</title>
+  <link href="css/demo.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="jqbar.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/jqbar.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    function nonepo(){
+        alert('아직준비된 포트폴리오가 없습니다.');
+    }
+    function none(){
+        alert('제출완료 빠른시간안에 답변해드리겠습니다.');
+    }
+    $(document).ready(function () {
+		$('#bar-1').jqbar({ label: 'JAVA', value: 40, barColor: '#D64747' });
+		$('#bar-2').jqbar({ label: 'DB', value: 40, barColor: '#FF681F' });
+		$('#bar-3').jqbar({ label: 'Javascript', value: 30, barColor: '#ea805c' });
+		$('#bar-4').jqbar({ label: 'HTML5', value: 30, barColor: '#88bbc8' });
+		$('#bar-5').jqbar({ label: 'CSS3', value: 30, barColor: '#939393' });
+		$('#bar-6').jqbar({ label: 'jQuery', value: 40, barColor: '#3a89c9' });
+	});
+</script>
+    <style> 
+    .txtBox34 {
+      border-style: solid;
+      border-width: 2px 2px 8px 8px; 
+      padding: 12px; 
+      word-break: break-all; 
+    }
+    .txtBox34 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      color: white;
+      font-size: 55px ;
+      border-color: Crimson;
+    }
+
+    #bar{
+      position: absolute;
+      top: 1500px;
+      left: 400px;
+    }
+    .txtBox04bg {
+      border-style: none;
+      padding: 12px; 
+      word-break: break-all;
+      position: absolute;
+      top: 1400px;
+      left: 1100px;
+      display: block;
+      height: 400px;
+      width: 600px;
+     }
+    .txtBox04bg {
+      color: white;
+      background-image: url(6.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 30px;
+    }
+
+    #intmy{
+      font-family: 'Alata', sans-serif;
+      list-style: none;          
+      color: #333b50;             
+      line-height: 50px;   
+      text-align: left;
+      font-size: 20px;
+      font-weight:lighter;
+      font-family:sans-serif;
+      padding-top: 50px;     
+    }
+    html,body {
+      height: 100%;
+      margin: 0px;
+      padding: 0px;    
+    }
+    #top {
+      background-image: url(1.jpg);
+      border-bottom: 1px solid #e4e4e4;
+    }
+    #bottom {
+      background-image: url(8.jpg);
+      border-bottom: 1px solid #e4e4e4;
+      overflow: hidden;
+    }
+    #second{
+      background-image: url(7.jpg);      overflow: hidden;
+    }
+    #top, #bottom ,#second {
+      float: left;
+      margin-top: 0;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    #topMenu {           
+      height: 60px;  
+      width: 100%;
+      background-color: #6f7a8a;;
+      float: left;
+    }
+    #topMenu ul li {     
+      list-style: none;           
+      color: #939dab;         
+      float: left;           
+      line-height: 60px;         
+      vertical-align: middle;   
+      text-align: center;         
+    }       
+    #topMenu .menuLink {                             
+      text-decoration:none;                      
+      color: #939dab;                             
+      display: block;                           
+      width: 90px;                            
+      font-size: 15px;                         
+      font-weight: bold;                        
+      font-family: "Trebuchet MS", Dotum, Arial; 
+      transition: color 0.5s;                      
+    }
+    #topMenu .menuLink2 {                             
+      text-decoration:none;                   
+      color: #939dab;                           
+      display: block;                            
+      width: 120px;                             
+      font-size: 15px;                           
+      font-weight: bold;                         
+      font-family: "Trebuchet MS", Dotum, Arial; 
+      transition: color 0.5s;                 
+    }     
+    #topMenu .menuLink:hover {           
+      color: #b8c1cf;                   
+    }
+    #topMenu .menuLink2:hover {           
+      color: #b8c1cf;                 
+    }
+    #fix{     
+      border-style: solid;
+      border-width: 2px 2px 8px 8px; 
+      padding: 12px; 
+      word-break: break-all; 
+      border-color: crimson;
+      color: white;
+      font-size: 60px;
+      font-weight:bold;
+      font-family:sans-serif;
+      position: relative;
+      display: block;
+    }
+    .p1{
+      position:absolute;
+      top: 22%;
+      left: 50%;
+      transform:translate(-50%,-50%);
+      width: 750px;
+    }
+    .p2{
+      position:absolute;
+      top: 22%;
+      left: 5%;
+      width: 350px;
+    }
+    #wrapper {
+      float: left;
+      position: relative;
+      top:35%;
+      left:2.3%;
+      width:810px;
+      height:204px;
+
+ 
+    }
+
+    #frame {
+      width:810px;
+      height:204px;
+      background:#ffffff;
+      box-shadow: 0 1px 10px rgba(0,0,0,0.5);
+      position:relative;
+      top:50px;
+      left:50px;
+    }
+
+    .img-wrapper {
+      width:200px;
+      height:200px;
+      position:absolute;
+      cursor:pointer;
+    }
+
+    .img-wrapper img {
+      box-shadow: 0 1px 10px rgba(0,0,0,0.4);
+      width:inherit;
+      height:inherit;
+    }
+
+    .img1 {
+    float: left;
+      top:2px;
+      left:2px;
+    }
+
+    .img2 {
+        float: left;
+      top:2px;
+      left:204px;
+    }
+
+    .img3 {
+        float: left;
+      top:2px;
+      left:406px;
+    }
+
+    .img4 {
+
+      top:2px;
+      left:608px;
+    }
+
+    .darkness {
+      position:absolute;
+      top:0;
+      left:0;
+      width:inherit;
+      height:inherit;
+      background:#000000;
+      /* 추가된 부분 */
+      opacity:0;
+      transition:all .6s linear;
+    }
+
+    .btn-plus {
+      position:absolute;
+      top:70px;
+      left:70px;
+      background:red;
+      width:55px;
+      height:55px;
+      border-radius:50%;
+      text-align:center;
+      opacity:0;
+      transform:scale(2);
+      transition:all .3s linear;
+    }
+
+    .btn-plus span {
+      font-size:2.3em;
+      color:#ffffff;
+      user-select:none;
+    }
+
+    .img-wrapper:hover .darkness{
+      opacity:0.4;
+    }
+
+    .img-wrapper:hover .btn-plus {
+      opacity:1;
+      transform:scale(1);
+    }
+
+
+    .form-wrap {
+      width: 650px;
+      height: 500px;
+      position: absolute;
+      background: #333b50;
+      overflow: hidden;
+      display: block;
+      top: 2210px;
+      left: 1050px;
+    }
+    .submit {
+      width: 60%;
+      padding: 10px 30px;
+      cursor: pointer;
+      display: block;
+      margin-left: auto;
+      margin-right: 70px;
+      background-color: green;
+      /* background: linear-gradient(to right,red, black); */
+      color: white;
+      border: 0;
+      outline: none;
+      border-radius: 30px;    
+    }
+    #member {
+      float: left;
+      line-height: 150%;
+      top: 280px;
+      left: 470px;
+      transform: translate(-50%, -50%);
+    }
+    #member2 {
+      float: left;
+      line-height: 150%;
+      top: 230px;
+      left: 200px;
+      width: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-family: 'Alata', sans-serif;
+    }
+    .input-field {
+      float: left;
+      width: 115px;
+      padding: 10px;
+      margin-right: 10px;
+      border: none;
+      border-bottom: 1px solid white;
+      outline: none;
+      background: transparent;
+    }
+    .input-field2 {
+      width: 280px;
+      padding: 10px 0;
+      margin: 5px 0;
+      border: none;
+      border-bottom: 1px solid white;
+      outline: none;
+      background: transparent;
+    }
+    .input-field3 {
+      width: 258px;
+      height: 200px;
+      padding: 10px ;
+      margin: 10px 0;
+      border: none;
+      border: 1px solid white;
+      outline: none;
+      background: transparent;
+    }
+    .input-group {
+      position: absolute;
+    }
+    .mtop{
+      text-align: center;
+      padding: 0;
+      color: white;
+    }  
+    footer{
+      height: 100px;  
+      width: 100%;
+      background-color: #6f7a8a;;
+      float: left;
+      font-family: 'Alata', sans-serif;
+      text-align: center;
+      line-height: 100px;
+      font-weight: bold;
+      color: #333b50;
+          }
+    </style>
+
+</head>
+<body>
+    <nav id="topMenu" name="main">
+        <ul style="margin: 0;">
+            <li><a class="menuLink" href="#top">메인</a></li>
+            <li><a class="menuLink2" href="#bottom">경력사항</a></li>
+            <li><a class="menuLink2" href="#second">포트폴리오</a></li>
+            <li><a class="menuLink" href="#second">문의</a></li>
+        </ul>
+    </nav>
+<div id="top">
+  <div class="txtBox34">
+    IM ' A <br>
+    Junior Developer <br>
+    CHOI BumJin
+  </div>
+</div> 
+<div id="bottom" name= "main2">
+  <div id="fix" class="p1">a hard-working developer</div>
+        <div id="bar" >
+          <div id="bar-1" style="padding-left: 32px;"></div><br>
+          <div id="bar-2" style="padding-left: 45px;"></div><br>
+          <div id="bar-3"></div><br>
+          <div id="bar-4" style="padding-left: 16px;"></div><br>
+          <div id="bar-5" style="padding-left: 30px;"></div><br>
+          <div id="bar-6" style="padding-left: 18px;"></div>
+        </div>
+        <div class="txtBox04bg">
+          <h1>
+            <ul id="intmy">
+              <li>Born on June 8, 1994 in Namwon</li>
+              <li>attending the Ilbo Academy</li>
+              <li>Create Weapon Enhancement Project</li>
+              <li>Create Calendar Project</li>
+              <li>I have to study hard, but I am always playing.</li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <div id="second">
+      <div id="fix" class="p2">PORTFOLIO</div>
+      <div id="wrapper">
+        <div id="frame">
+          <div class="img-wrapper img1">
+            <img  src="p1.jpg">
+            <div class="darkness"></div>
+            <div onclick=nonepo() class="btn-plus"><span draggable="false">+</span></div>
+          </div>
+            
+          <div class="img-wrapper img2">
+            <img src="p2.jpg"/>
+            <div class="darkness"></div>
+            <div onclick=nonepo() class="btn-plus"><span draggable="false">+</span></div>
+          </div>
+          
+          <div class="img-wrapper img3">
+            <img src="p3.jpg"/>
+            <div class="darkness"></div>
+            <div onclick=nonepo() class="btn-plus"><span draggable="false">+</span></div>
+          </div>
+          
+          <div class="img-wrapper img4">
+            <img src="p4.jpg"/>
+            <div class="darkness"></div>
+            <div onclick=nonepo() class="btn-plus"><span draggable="false">+</span></div>
+          </div>
+        </div>
+      </div>
+
+        <div class="form-wrap">
+            <h1 class="mtop">문의 하기</h1>
+            <div id="member2" class="input-group">
+                문의 하실 내용이나 하고싶은 <br>
+                말들을 메세지에적어 보내주세요. <br><br>
+
+                qjawls5714@naver.com <br><br>
+                010-5850-5968
+            </div>
+            <div id="member" class="input-group">
+                <input type="text" class="input-field" name="mname" id="mname" placeholder="이름">
+                <input type="text" class="input-field" name="mpass" id="mpass" placeholder="이메일">
+                <input type="text" class="input-field2" name="memail" id="memail" placeholder="전화번호">
+                <textarea name="mtext" class ='input-field3' placeholder="메세지를 입력하세요"></textarea>
+                <button onclick=none() class="submit" ()>제출</button>
+                
+            </div>
+        </div>
+      </div>
+      <footer>
+        © 2020 Proudly created with Visual Studio
+      </footer>
+        
+      
+    
+</body>
+</html>
